@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.heading {
+    font-size: 2rem;
+}
+
+.library {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.library div {
+    border: 2px solid red;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+::backdrop {
+    background-image: linear-gradient(45deg,
+            magenta,
+            rebeccapurple,
+            dodgerblue,
+            green);
+    opacity: 0.75;
+}
+
+.library div button{
+    margin: 20px;
+}
+
+.library div{
+    padding: 20px;
+}
